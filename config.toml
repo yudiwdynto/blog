@@ -1,0 +1,53 @@
+baseURL = ""
+title = "yudiwdynto"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Yudi Widiyanto"
+description = "Yudi Widiyanto personel website"
+keywords = "blog,personal"
+avatarURL = "images/avatar.webp"
+dateFormat = "January 2, 2006"
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+enableTwemoji = false
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter"
+weight = 2
+url = "https://twitter.com/yudiwdynto/"
+
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+
+[[menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[[menu.main]]
+name = "About"
+weight = 3
+url = "about/"
+
