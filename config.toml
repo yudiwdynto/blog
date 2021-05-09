@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
-pygmentsStyle = "bw"
+pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
@@ -16,8 +16,6 @@ keywords = "blog,personal"
 avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
 hideFooter = false
-hideCredits = false
-hideCopyright = false
 
 colorScheme = "auto"
 hideColorSchemeToggle = false
