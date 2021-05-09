@@ -1,9 +1,13 @@
 baseURL = "https://yudiwdynto.github.io/blog/"
 title = "yudiwdynto"
+
 theme = "hugo-coder"
+
 languageCode = "en"
 defaultContentLanguage = "en"
+
 paginate = 20
+
 pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -11,14 +15,15 @@ enableEmoji = true
 
 [params]
 author = "Yudi Widiyanto"
-description = "Yudi Widiyanto personel website"
+description = "Yudi Widiyanto personal website"
+info = "Sebuah personal blog"
 keywords = "blog,personal"
 avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
 hideFooter = false
 
 colorScheme = "auto"
-hideColorSchemeToggle = false
+hideColorSchemeToggle = true
 maxSeeAlsoItems = 5
 enableTwemoji = false
 
@@ -41,17 +46,8 @@ weight = 2
 url = "https://t.me/yudiwdynto/"
 
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 weight = 1
 url = "posts/"
 
-[[menu.main]]
-name = "Projects"
-weight = 2
-url = "projects/"
-
-[[menu.main]]
-name = "About"
-weight = 3
-url = "about/"
 
