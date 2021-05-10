@@ -23,7 +23,7 @@ dateFormat = "January 2, 2006"
 hideFooter = false
 
 colorScheme = "auto"
-hideColorSchemeToggle = true
+hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
 enableTwemoji = false
 
